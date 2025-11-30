@@ -351,6 +351,22 @@ export default function Profile({ author, social, features, researchInterests }:
                     </div>
                 </div>
             )}
+
+            {/* 🔥🔥🔥 终极方案：动态加载 3D 地球仪 🔥🔥🔥 */}
+            {/* 🔥🔥🔥 3D RevolverMaps 地球仪 (动态加载版) 🔥🔥🔥 */}
+                        <div className="flex justify-center mt-10 pt-6 border-t border-neutral-200 dark:border-neutral-800 w-full overflow-hidden">
+                            <div style={{ width: '100%', minHeight: '200px', display: 'flex', justifyContent: 'center' }}>
+                                {/* 我们用一个 Script 组件来加载它 */}
+                                <script
+                                    async
+                                    src="//mapmyvisitors.com/globe.js?d=KI96u82lcpVmedBb2MX4sz9cChEFKB5-JnqvJLm8IKc"
+                                ></script>
+                            </div>
+                        </div>
+
+            
         </motion.div>
+
+        
     );
 }
