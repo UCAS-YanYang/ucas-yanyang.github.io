@@ -61,7 +61,7 @@ export default function PublicationsList({ config, publications, embedded = fals
     }, [publications, searchQuery, selectedYear, selectedType]);
 
     // 加粗逻辑
-    const renderAuthors = (authors: any[]) => {
+    const renderAuthors = (authors: { name: string }[]) => {
         return authors.map((author, index) => {
             const name = author.name;
             const isMe = name.toLowerCase().includes("yan") && name.toLowerCase().includes("yang");

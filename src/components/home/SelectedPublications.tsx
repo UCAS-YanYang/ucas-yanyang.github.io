@@ -28,9 +28,9 @@ export default function SelectedPublications({ publications, title = 'Selected P
     const [expandedAbstractId, setExpandedAbstractId] = useState<string | null>(null);
 
     // 作者名字渲染逻辑 (加粗)
-    const renderAuthors = (authors: any[]) => {
+    const renderAuthors = (authors: { name: string }[]) => {
         const MY_NAME_KEYWORDS = ["yan", "yang"]; 
-        return authors.map((author: any, index: number) => {
+        return authors.map((author: { name: string }, index: number) => {
             const name = author.name;
             const lowerName = name.toLowerCase();
             const isMe = MY_NAME_KEYWORDS.every(k => lowerName.includes(k));
