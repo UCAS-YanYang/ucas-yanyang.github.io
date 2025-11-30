@@ -352,21 +352,27 @@ export default function Profile({ author, social, features, researchInterests }:
                 </div>
             )}
 
-            {/* 🔥🔥🔥 终极方案：动态加载 3D 地球仪 🔥🔥🔥 */}
-            {/* 🔥🔥🔥 3D RevolverMaps 地球仪 (动态加载版) 🔥🔥🔥 */}
-                        <div className="flex justify-center mt-10 pt-6 border-t border-neutral-200 dark:border-neutral-800 w-full overflow-hidden">
-                            <div style={{ width: '100%', minHeight: '200px', display: 'flex', justifyContent: 'center' }}>
-                                {/* 我们用一个 Script 组件来加载它 */}
-                                <script
-                                    async
-                                    src="//mapmyvisitors.com/globe.js?d=KI96u82lcpVmedBb2MX4sz9cChEFKB5-JnqvJLm8IKc"
-                                ></script>
-                            </div>
-                        </div>
-
-            
+            {/* 🔥🔥🔥 美化后的 Visitor Map (图片版) 🔥🔥🔥 */}
+            <div className="mt-6 pt-6 border-t border-neutral-200 dark:border-neutral-800 w-full flex justify-center">
+                <a
+                    href='https://mapmyvisitors.com/web/1c0yy'
+                    title='Visit tracker'
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // 添加了 hover 效果和过渡动画
+                    className="block hover:opacity-100 opacity-90 transition-opacity duration-300"
+                >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                        src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=3lqFlyZyZWUumS9HgVqzTINOrnBAIov0A3c2NYmHMoM&co=8bc6f0'
+                        alt="Visitor Map"
+                        // 添加了圆角，保证了响应式
+                        className="max-w-full h-auto rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
+                        // 限制最大高度，防止在宽屏下太高
+                        style={{ maxHeight: '250px' }}
+                    />
+                </a>
+            </div>
         </motion.div>
-
-        
     );
 }
