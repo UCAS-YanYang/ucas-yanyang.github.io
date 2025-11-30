@@ -12,6 +12,7 @@ import CardPage from '@/components/pages/CardPage';
 import { Publication } from '@/types/publication';
 import { BasePageConfig, PublicationPageConfig, TextPageConfig, CardPageConfig } from '@/types/page';
 
+
 // Define types for section config
 interface SectionConfig {
   id: string;

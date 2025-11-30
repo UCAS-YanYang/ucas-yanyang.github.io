@@ -3,25 +3,31 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Hua Luogeng Scholarship"
+subtitle = "Academy of Mathematics and Systems Science"
 date = "2025"
-content = "Description of the award."
+# content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
+title = "Student Certificate of Recognition"
+subtitle = "Society for Industrial and Applied Mathematics"
+date = "2025"
+# content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Outstanding Graduation Student of Beijing"
+subtitle = "Beijing Municipal Education Commission"
 date = "2022"
-content = "Description of the award."
+# content = "Description of the award."
+
+[[items]]
+title = "National Scholarship"
+subtitle = "University of Chinese Academy of Sciences"
+date = "2021"
+# content = "Description of the award."
+
+[[items]]
+title = "First-Class Academic Scholarship"
+subtitle = "University of Chinese Academy of Sciences"
+date = "2019-2022"
+# content = "Description of the award."

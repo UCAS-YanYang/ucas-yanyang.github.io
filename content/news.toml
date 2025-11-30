@@ -1,7 +1,27 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2025"
+content = "11-29: New preprint - [“Variational analysis of determinantal varieties”](https://arxiv.org/abs/2501.13830)"
 
 [[news]]
-date = "2025-09"
-content = "Starting my PhD at the University of Example"
+date = "2025"
+content = "09-30: Awarded the Hua Luogeng Scholarship at AMSS 🎖️"
+
+[[news]]
+date = "2025"
+content = "05-05: Awarded the SIAM Certificate of Recognition 🎖️"
+
+[[news]]
+date = "2025"
+content = "01-24: New preprint - [“A space-decoupling framework for optimization on bounded-rank matrices with orthogonally invariant constraints”](https://arxiv.org/abs/2501.13830)"
+
+
+[[news]]
+date = "2025"
+content = "01-23: New conference paper accepted in AISTATS 2025 - [“Bilevel Reinforcement Learning via the Development of Hyper-gradient without Lower-Level Convexity”](https://arxiv.org/abs/2405.19697)"
+
+[[news]]
+date = "2025"
+content = "01-23: New conference paper accepted in ICLR 2025 - [“LancBiO: dynamic Lanczos-aided bilevel optimization via Krylov subspace”](https://arxiv.org/abs/2404.03331)"
+
+
+# 🎉

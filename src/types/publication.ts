@@ -28,6 +28,7 @@ export interface Publication {
   url?: string;
   code?: string;
   pdfUrl?: string;
+  preprint?: string;
   tags: string[];
   keywords?: string[];
   type: PublicationType;
