@@ -11,7 +11,6 @@ import {
     ClipboardDocumentIcon,
     DocumentTextIcon,
     CodeBracketIcon, 
-    DocumentArrowDownIcon,
     PresentationChartBarIcon, 
     GlobeAltIcon,
     SparklesIcon
@@ -20,8 +19,7 @@ import { Publication } from '@/types/publication';
 import { PublicationPageConfig } from '@/types/page';
 import { cn } from '@/lib/utils';
 
-// 你的名字配置
-const MY_NAME = "Yan Yang";
+
 
 interface PublicationsListProps {
     config: PublicationPageConfig;

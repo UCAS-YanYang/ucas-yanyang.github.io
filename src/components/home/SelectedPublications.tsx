@@ -5,14 +5,12 @@ import Link from 'next/link';
 import { Publication } from '@/types/publication';
 // 引入所有需要的图标
 import { 
-    DocumentArrowDownIcon, 
     CodeBracketIcon, 
     PresentationChartBarIcon, 
     GlobeAltIcon, 
     DocumentTextIcon, 
     BookOpenIcon,
     ClipboardDocumentIcon,
-    NewspaperIcon,
     SparklesIcon
 } from '@heroicons/react/24/outline';
 import { useState } from 'react';

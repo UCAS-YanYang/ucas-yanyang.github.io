@@ -27,7 +27,7 @@ export default function News({ items, title = 'News' }: NewsProps) {
 
             if (match) {
                 // 如果是链接，提取出 [显示文本] 和 (URL)
-                const [_, linkText, linkUrl] = match;
+                const [, linkText, linkUrl] = match;
                 return (
                     <a 
                         key={index} 
