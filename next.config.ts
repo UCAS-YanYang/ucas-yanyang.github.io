@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   // 2. 你的 GitHub 仓库名 (注意前面有个斜杠)
   // ⚠️⚠️⚠️ 请务必把下面这行改成你的真实仓库名！比如 '/academic-website'
   // 如果你的仓库名是 "你的用户名.github.io"，请删掉下面这一行
-  basePath: "/你的仓库名",
+  basePath: "/homepage",
 
   // 3. 关闭图片优化
   images: {
