@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
 
   // 2. 你的 GitHub 仓库名
   // ⚠️ 再次确认：如果你的仓库叫 homepage，这里必须是 '/homepage'
-  basePath: "/homepage",
+  // basePath: "/homepage",
 
   // 3. 关闭图片优化
   images: {
