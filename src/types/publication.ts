@@ -28,7 +28,6 @@ export interface Publication {
   url?: string;
   code?: string;
   pdfUrl?: string;
-  preprint?: string;
   tags: string[];
   keywords?: string[];
   type: PublicationType;
@@ -46,6 +45,10 @@ export interface Publication {
   summary?: string;
   researchArea: ResearchArea;
   description?: string;
+  slides?: string;   
+  website?: string;  
+  link?: string;     
+  preprint?: string;
 }
 
 export type PublicationType =
