@@ -17,11 +17,11 @@ content = "01-24: New preprint - [“A space-decoupling framework for optimizati
 
 [[news]]
 date = "2025"
-content = "01-23: New conference paper accepted in AISTATS 2025 - [“Bilevel Reinforcement Learning via the Development of Hyper-gradient without Lower-Level Convexity”](https://arxiv.org/abs/2405.19697)"
+content = "01-23: New paper accepted in AISTATS 2025 - [“Bilevel Reinforcement Learning via the Development of Hyper-gradient without Lower-Level Convexity”](https://arxiv.org/abs/2405.19697)"
 
 [[news]]
 date = "2025"
-content = "01-23: New conference paper accepted in ICLR 2025 - [“LancBiO: dynamic Lanczos-aided bilevel optimization via Krylov subspace”](https://arxiv.org/abs/2404.03331)"
+content = "01-23: New paper accepted in ICLR 2025 - [“LancBiO: dynamic Lanczos-aided bilevel optimization via Krylov subspace”](https://arxiv.org/abs/2404.03331)"
 
 
 # 🎉
