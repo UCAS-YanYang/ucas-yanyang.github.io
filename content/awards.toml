@@ -3,6 +3,12 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
+title = "Doctoral Fellowship under CAST’s Youth Talent Development Program"
+subtitle = "中国科协青年人才培育工程-博士生专项计划"
+date = "2025"
+# content = "Description of the award."
+
+[[items]]
 title = "Hua Luogeng Scholarship"
 subtitle = "Academy of Mathematics and Systems Science"
 date = "2025"
