@@ -24,6 +24,7 @@ google_scholar = "https://scholar.google.com.co/citations?user=gga4vtUAAAAJ&hl=v
 github = "https://github.com/UCAS-YanYang"
 linkedin = ""
 orcid = ""
+cv = "/CV_of_YanYang.pdf"
 
 [features]
 # Show a like button on the about page

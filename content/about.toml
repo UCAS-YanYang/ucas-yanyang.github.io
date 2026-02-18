@@ -29,5 +29,14 @@ title = "Refereed papers & preprints"
 filter = "selected"
 limit = 5
 
+[[sections]]
+id = "services"
+type = "list"
+title = "Services"
+source = "services.toml"
 
-
+[[sections]]
+id = "presentations"
+type = "list"
+title = "Presentations"
+source = "presentations.toml"

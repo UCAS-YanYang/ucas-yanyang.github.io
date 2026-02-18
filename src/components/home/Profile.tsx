@@ -11,7 +11,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { MapPinIcon as MapPinSolidIcon, EnvelopeIcon as EnvelopeSolidIcon } from '@heroicons/react/24/solid';
 import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
-import { Github, Linkedin, Pin } from 'lucide-react';
+import { Github, Linkedin, Pin} from 'lucide-react';
 import { SiteConfig } from '@/lib/config';
 
 // Custom ORCID icon component
@@ -23,6 +23,29 @@ const OrcidIcon = ({ className }: { className?: string }) => (
         xmlns="http://www.w3.org/2000/svg"
     >
         <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z" />
+    </svg>
+);
+
+const CvIcon = ({ className }: { className?: string }) => (
+    <svg 
+        viewBox="0 0 24 24" 
+        fill="currentColor" 
+        className={className}
+    >
+        <text 
+            x="50%" 
+            y="44%" 
+            dominantBaseline="central" 
+            textAnchor="middle" 
+            // 调整到 18，这是在这个框里能放下的最大安全尺寸
+            fontSize="18" 
+            // 使用最粗的字重 (Black)
+            fontWeight="800" 
+            // 紧凑排列，保证看起来是一个整体图标
+            style={{ fontFamily: 'sans-serif', letterSpacing: '1px' }}
+        >
+            CV
+        </text>
     </svg>
 );
 
@@ -90,6 +113,15 @@ export default function Profile({ author, social, features, researchInterests }:
             href: social.orcid,
             icon: OrcidIcon,
         }] : []),
+        
+        // 修改 2：插入 CV 逻辑
+        // 使用 (social as any) 是为了避开 TypeScript 检查，确保只要 config 里有 cv 就能显示
+        ...((social as any).cv ? [{
+            name: 'CV',
+            href: (social as any).cv,
+            icon: CvIcon,
+        }] : []),
+
         ...(social.github ? [{
             name: 'GitHub',
             href: social.github,
@@ -359,16 +391,13 @@ export default function Profile({ author, social, features, researchInterests }:
                     title='Visit tracker'
                     target="_blank"
                     rel="noopener noreferrer"
-                    // 添加了 hover 效果和过渡动画
                     className="block hover:opacity-100 opacity-90 transition-opacity duration-300"
                 >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                         src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=3lqFlyZyZWUumS9HgVqzTINOrnBAIov0A3c2NYmHMoM&co=8bc6f0'
                         alt="Visitor Map"
-                        // 添加了圆角，保证了响应式
                         className="max-w-full h-auto rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
-                        // 限制最大高度，防止在宽屏下太高
                         style={{ maxHeight: '250px' }}
                     />
                 </a>
