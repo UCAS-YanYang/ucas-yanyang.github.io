@@ -116,9 +116,9 @@ export default function Profile({ author, social, features, researchInterests }:
         
         // 修改 2：插入 CV 逻辑
         // 使用 (social as any) 是为了避开 TypeScript 检查，确保只要 config 里有 cv 就能显示
-        ...((social as any).cv ? [{
+        ...((social as Record<string, string>).cv ? [{
             name: 'CV',
-            href: (social as any).cv,
+            href: (social as Record<string, string>).cv,
             icon: CvIcon,
         }] : []),
 
