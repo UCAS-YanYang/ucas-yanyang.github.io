@@ -299,17 +299,21 @@ export default function Profile({ author, social, features, researchInterests }:
                                                         </div>
                                                     )}
                                                 </div>
-                                                <p className="break-words">{social.email?.replace('@', ' (at) ')}</p>
-                                                <div className="mt-2">
-                                                    <a
-                                                        href={link.href}
-                                                        className="inline-flex items-center justify-center space-x-2 bg-accent hover:bg-accent-dark text-white px-3 py-1 rounded-md text-xs font-medium transition-colors duration-200 w-full sm:w-auto"
-                                                    >
-                                                        <EnvelopeIcon className="h-4 w-4" />
-                                                        <span className="sm:hidden">Send</span>
-                                                        <span className="hidden sm:inline">Send Email</span>
-                                                    </a>
-                                                </div>
+                                                {[social.email, social.email2].filter(Boolean).map((addr, i) => (
+                                                    <div key={i} className={i > 0 ? 'mt-3 pt-3 border-t border-neutral-700' : ''}>
+                                                        <p className="break-words">{addr?.replace('@', ' (at) ')}</p>
+                                                        <div className="mt-2">
+                                                            <a
+                                                                href={`mailto:${addr}`}
+                                                                className="inline-flex items-center justify-center space-x-2 bg-accent hover:bg-accent-dark text-white px-3 py-1 rounded-md text-xs font-medium transition-colors duration-200 w-full sm:w-auto"
+                                                            >
+                                                                <EnvelopeIcon className="h-4 w-4" />
+                                                                <span className="sm:hidden">Send</span>
+                                                                <span className="hidden sm:inline">Send Email</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                ))}
                                             </div>
                                             <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-800"></div>
                                         </motion.div>

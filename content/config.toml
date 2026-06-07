@@ -13,7 +13,8 @@ avatar = "/bio_Changsha_YY.jpg"
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "yangyan@amss.ac.cn"
+email = "yangyan1801@gmail.com"
+email2 = "yangyan@amss.ac.cn"   # 第二个邮箱，改成你自己的；不需要就删掉这一行
 location = "Beijing, China"
 location_url = "https://maps.app.goo.gl/o4hfhdAZq6ggaUEDA" 
 location_details = [
