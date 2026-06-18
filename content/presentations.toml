@@ -1,14 +1,19 @@
 [[news]]
 date = "2026"
-content = "06-02: Talk at the session \"Geometric Constrained Optimization\" at SIAM Conference on Optimization, Edinburgh, United Kingdom ([slide](/slides/SecVar_Edinburgh.pdf), [OP26](https://www.siam.org/conferences-events/siam-conferences/op26/))"
+content = "06-27: Talk at CSIAM Youth Forum, Chengdu, China ([slides](/slides/GOTD_Chengdu.pdf), [CSIAM Youth Forum 2026](https://www.csiam.org.cn/1006/202606/2774.html))"
+
 
 [[news]]
 date = "2026"
-content = "04-11: Talk at the session \"Recent Advances in Riemannian Optimization\" at 2026 International Conference on Optimization: Techniques and Applications, Shanghai, China ([slide](/slides/SecVar_Shanghai.pdf), [ICOTA 2026](https://jcxy.sues.edu.cn/ICOTA2026/27096/list.htm))"
+content = "06-02: Talk at the session \"Geometric Constrained Optimization\" at SIAM Conference on Optimization, Edinburgh, United Kingdom ([slides](/slides/SecVar_Edinburgh.pdf), [OP26](https://www.siam.org/conferences-events/siam-conferences/op26/))"
+
+[[news]]
+date = "2026"
+content = "04-11: Talk at the session \"Recent Advances in Riemannian Optimization\" at 2026 International Conference on Optimization: Techniques and Applications, Shanghai, China ([slides](/slides/SecVar_Shanghai.pdf), [ICOTA 2026](https://jcxy.sues.edu.cn/ICOTA2026/27096/list.htm))"
 
 [[news]]
 date = "2025"
-content = "11-19: Talk at the Eighth Peking University Symposium for Top Doctoral Students in Computational and Applied Mathematics, Beijing, China ([slide](/slides/SpaceDecoupling.pdf))"
+content = "11-19: Talk at the Eighth Peking University Symposium for Top Doctoral Students in Computational and Applied Mathematics, Beijing, China ([slides](/slides/SpaceDecoupling.pdf))"
 
 [[news]]
 date = "2025"
@@ -16,7 +21,7 @@ content = "10-23: Poster at the Twenty-Third Annual Conference of China Society 
 
 [[news]]
 date = "2025"
-content = "08-10: Talk at the China Conference on Scientific Machine Learning, Beijing, China ([slide](/slides/SoBiRL.pdf), [CSML2025](https://c2sml.cn/conference_en.html))"
+content = "08-10: Talk at the China Conference on Scientific Machine Learning, Beijing, China ([slides](/slides/SoBiRL.pdf), [CSML2025](https://c2sml.cn/conference_en.html))"
 
 [[news]]
 date = "2025"
